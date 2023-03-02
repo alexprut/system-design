@@ -1,0 +1,5 @@
+.DS_Store
+
+./master-slave-database-postgres/config
+./master-slave-database-postgres/data
+./master-slave-database-postgres/data-slave
