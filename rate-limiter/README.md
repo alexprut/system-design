@@ -1,0 +1,5 @@
+- Use IP address
+- 429 http response
+- What is the technique to rate limit
+  - Token bucket system
+  - Fixed window system 
