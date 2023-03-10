@@ -1,0 +1,13 @@
+version: '3'
+services:
+  questdb:
+    container_name: questdb
+    image: questdb/questdb:7.0.1
+    restart: always
+    volumes:
+      - ./data:/var/lib/questdb
+    ports:
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9009:9009"
+      - "127.0.0.1:8812:8812"
+      - "127.0.0.1:9003:9003"
