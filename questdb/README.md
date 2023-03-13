@@ -12,6 +12,7 @@ http://localhost:9000
 Follow guide: https://questdb.io/docs/get-started/first-database/
 
 ### TODO
+- [ ] Create a pricing service and streaming ingestion of prices
 
 ### References
 - https://questdb.io/docs/get-started/docker/
