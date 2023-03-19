@@ -1,5 +1,9 @@
-- Use IP address
-- 429 http response
-- What is the technique to rate limit
-  - Token bucket system
-  - Fixed window system 
+### TODO
+- [ ] Add 429 http response when rate limited
+- [ ] Token Bucket system
+- [ ] Fixed window system
+- [ ] Use IP address to rate limit
+- [ ] Add configuration or rule engine
+
+### References
+- https://www.tryexponent.com/courses/system-design-interview/system-design/design-rate-limiter

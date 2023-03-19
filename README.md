@@ -1,5 +1,9 @@
+## Description
+How it is build? What is under the hood? System Design examples, Proof of Concept and Minimum Viable Products.
+
 ## System Designs
 1. [Master-Slave Database PostgreSQL](./master-slave-database-postgres) 
+1. [QuestDB](./questdb)
 
 
 ### Engineering Blogs
@@ -48,3 +52,16 @@
 TODO
 ====
 - [ ] Git Submodules
+- [ ] Add Kubernetes
+- [ ] Add Terraform
+- [ ] Add Helm charts
+- [ ] OLAP
+- [ ] OLTP
+
+### Jargon
+* DAU: Daily Active Users
+
+### References
+- https://github.com/karanpratapsingh/system-design
+- https://github.com/donnemartin/system-design-primer
+- https://www.tryexponent.com/courses/system-design-interview
