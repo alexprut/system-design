@@ -1,10 +1,6 @@
 .DS_Store
 *.iml
 
-./master-slave-database-postgres/config
-./master-slave-database-postgres/data
-./master-slave-database-postgres/data-slave
-
 
 HELP.md
 .gradle
@@ -43,3 +39,14 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Master Slave Database Postgres
+./master-slave-database-postgres/config
+./master-slave-database-postgres/data
+./master-slave-database-postgres/data-slave
+
+# Rate Limiter
+
+# OpenStreetMap
+./openstreetmap/openstreetmap-website
+./openstreetmap/data

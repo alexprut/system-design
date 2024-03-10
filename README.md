@@ -4,6 +4,9 @@ How it is build? What is under the hood? System Design examples, Proof of Concep
 ## System Designs
 1. [Master-Slave Database PostgreSQL](./master-slave-database-postgres) 
 1. [QuestDB](./questdb)
+1. [Rate Limiter](./rate-limiter)
+1. [OpenStreetMap](./openstreetmap)
+1. [Proximity Service](./proximity-service)
 
 
 ### Engineering Blogs
@@ -57,11 +60,15 @@ TODO
 - [ ] Add Helm charts
 - [ ] OLAP
 - [ ] OLTP
+- [ ] Service Mesh
 
 ### Jargon
 * DAU: Daily Active Users
+* QPS: Queries per Second
 
 ### References
 - https://github.com/karanpratapsingh/system-design
 - https://github.com/donnemartin/system-design-primer
 - https://www.tryexponent.com/courses/system-design-interview
+- https://www.educative.io/blog/complete-guide-system-design-interview
+- https://roadmap.sh/
