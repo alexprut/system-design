@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  location-service:
+    image: systemdesign/proximity-service/location-service:latest
+    build:
+      context: ./location-service
+    container_name: location-service
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5435/businesses
+      - SPRING_DATASOURCE_USERNAME=postgresql
+      - SPRING_DATASOURCE_PASSWORD=postgresql
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    ports:
+      - "8180:8080"
+  postgres:
+    image: postgres:16.2
+    container_name: postgres
+    restart: always
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_USER=postgresql
+      - POSTGRES_PASSWORD=postgresql
