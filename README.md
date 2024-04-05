@@ -8,6 +8,7 @@ How it is build? What is under the hood? System Design examples, Proof of Concep
 1. [OpenStreetMap](./openstreetmap)
 1. [Proximity Service](./proximity-service)
 1. [F-Droid](./fdroid)
+2. [Email Service](./email-service)
 
 
 ### Engineering Blogs
@@ -66,6 +67,7 @@ TODO
 ### Jargon
 * DAU: Daily Active Users
 * QPS: Queries per Second
+* ESP: Email Service Providers
 
 ### References
 - https://github.com/karanpratapsingh/system-design
