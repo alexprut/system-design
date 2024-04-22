@@ -8,7 +8,9 @@ How it is build? What is under the hood? System Design examples, Proof of Concep
 1. [OpenStreetMap](./openstreetmap)
 1. [Proximity Service](./proximity-service)
 1. [F-Droid](./fdroid)
-2. [Email Service](./email-service)
+1. [Email Service](./email-service)
+1. [SQLite](./sqlite)
+1. [Kafka](./kafka)
 
 
 ### Engineering Blogs
