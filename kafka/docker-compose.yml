@@ -33,8 +33,18 @@ services:
       context: ./producer-service
       dockerfile: Dockerfile
     container_name: producer-service
+    restart: always
     depends_on:
       - kafka
+  consumer-service:
+    build:
+      context: ./consumer-service
+      dockerfile: Dockerfile
+    container_name: consumer-service
+    restart: always
+    depends_on:
+      - kafka
+      - producer-service
 
 volumes:
   kafka-data:
