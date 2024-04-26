@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  solr:
+    image: solr:9.5
+    container_name: solr
+    ports:
+      - "8983:8983"
+    volumes:
+      - ./data:/var/solr/data
+    environment:
+      SOLR_CORE_CREATE_NEW: 'false'
+      SOLR_CORE_NAME: my_core
+      SOLR_HEAP: '512m'
+      SOLR_MODE: solrcloud
+    restart: always
