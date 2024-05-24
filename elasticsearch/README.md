@@ -11,7 +11,6 @@
 
 ### Stats
 
-
 ### Diagram
 
 ![System Design](system-design.svg)
@@ -22,16 +21,17 @@
 docker-compose up
 ```
 
-### UI
+### UI (Kibana)
+
 ```
 http://localhost:5601/
 ```
-
 
 ### TODO
 
 - [ ] Provide bulk data
 - [ ] Create a service that writes and reads from Elasticsearch
+- [ ] Implement Search Tutorial https://www.elastic.co/search-labs/tutorials/search-tutorial/welcome
 
 ### References
 
@@ -39,6 +39,7 @@ http://localhost:5601/
 - https://en.wikipedia.org/wiki/Kibana
 - https://www.elastic.co/search-labs/tutorials
 - https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+- https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 - https://github.com/elastic/kibana
 - https://hub.docker.com/_/elasticsearch
 - https://hub.docker.com/_/kibana
