@@ -16,14 +16,17 @@ An open-source API gateway.
 
 ### Build, Run, Test, UI
 ```
-docker-compose up kong-database-prepare -d
+docker-compose up kong-database-prepare
 docker-compose up
 ```
 
 #### UI
 ```
-http://localhost:8082/
+http://localhost:8002/
 ```
+
+### Tutorial
+Based on https://docs.konghq.com/gateway/3.6.x/get-started/
 
 ### Diagram
 ![System Design](system-design.svg)

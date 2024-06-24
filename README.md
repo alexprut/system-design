@@ -15,6 +15,7 @@ How it is build? What is under the hood? System Design examples, Proof of Concep
 1. [Neo4j](./neo4j)
 1. [Solr](./solr)
 1. [Elasticsearch](./elasticsearch)
+1. [Kong Gateway](./kong-gateway)
 
 
 ### Engineering Blogs
