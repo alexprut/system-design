@@ -5,6 +5,8 @@ on one machine can be copied and used on a different machine with a different ar
 
 ### Stats
 - See https://www.sqlite.org/fullsql.html
+- https://www.sqlite.org/limits.html
+- https://www.sqlite.org/speed.html
 
 #### Build, Run, Test
 1. Install SQLite, see https://www.sqlite.org/download.html
